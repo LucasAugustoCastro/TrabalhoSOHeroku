@@ -38,7 +38,7 @@ $users = json_decode($data);
       </tbody>
 
   </table>
-  <form action="/delete.php">
+  <form action="/delete.php" method="POST">
     <label for="id">Informe o codigo do usuario que queira deletar: </label>
     <input type="text" id="id" name="id" maxlength="2">
     <button type="submit">Excluir</button>
